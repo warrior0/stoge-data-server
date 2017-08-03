@@ -1,0 +1,19 @@
+{
+  "name": "store-data-server",
+  "version": "1.0.0",
+  "description": "store data form IOT sersor",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warrior0/store-data-server.git"
+  },
+  "author": "warrior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/warrior0/store-data-server/issues"
+  },
+  "homepage": "https://github.com/warrior0/store-data-server#readme"
+}
