@@ -1,10 +1,16 @@
 {
   "name": "store-data-server",
   "version": "1.0.0",
-  "description": "store data form IOT sersor",
+  "description": "store_data_from_iot_sersor",
   "main": "index.js",
+  "dependencies": {
+    "ip": "^1.1.5",
+    "socket.io": "^2.0.3",
+    "socketio-wildcard": "^2.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
