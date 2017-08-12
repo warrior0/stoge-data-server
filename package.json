@@ -4,6 +4,9 @@
   "description": "store_data_from_iot_sersor",
   "main": "index.js",
   "dependencies": {
+    "express": "^4.15.4",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
     "ip": "^1.1.5",
     "socket.io": "^2.0.3",
     "socketio-wildcard": "^2.0.0"
