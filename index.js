@@ -1,3 +1,4 @@
+var PORT = 80;
 var http = require('http');
 var fs = require('fs');
 var ip = require('ip');
@@ -7,7 +8,7 @@ var express = require('express');
 var app = express();
 
 var server = http.Server(app);
-server.listen(80, function(){
+server.listen(process.env.PORT || PORT, function(){
 	console.log('listenning at port 80');	                          		// cho server lắng nghe ở cổng 8080
 	console.log('server run at '+ip.address()+' ip address');             	// in địa chỉ ip của server
 });
